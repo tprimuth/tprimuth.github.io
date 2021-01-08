@@ -1,0 +1,64 @@
+.container-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#button-style {
+  font-size: 16px;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: transparent;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+/*  -webkit-text-stroke: 1px #fff;*/
+  z-index: 4;
+	overflow: hidden;
+
+}
+
+.btn {
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+-webkit-text-stroke-width: 1px;	
+	
+}
+
+.btn:hover {
+  color: #fff;
+  position: relative;
+  letter-spacing: 2px;
+  z-index: 1;
+/*  left: 0;*/
+	-webkit-text-stroke-width: 1px;	
+  box-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.4);
+	
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
