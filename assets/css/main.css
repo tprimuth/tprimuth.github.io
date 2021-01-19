@@ -1197,6 +1197,21 @@ h1.title {
 	color: #fff;
 	margin: 10px 0px;
 }
+h4.tag-line{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif, ;
+	font-weight: 500;
+	font-style: italic;
+}
+span.tag-line{
+	font-size: 50px;
+	font-weight: 500;
+	font-style: italic;
+
+}
 /* ==================================================
 
 9 - PARTNER
@@ -1322,6 +1337,30 @@ h3.detail-title {
 }
 /* ==================================================
 
+11 - BACKGROUNDS
+
+=====================================================*/
+.bg-sift {
+	background: url("../img/works/Sift.png") center no-repeat;
+	background-size: contain;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 40vw;
+	top: 50vh;
+}
+
+
+
+/* ==================================================
+
 11 - WORK DETAIL
 
 =====================================================*/
@@ -1337,6 +1376,7 @@ h3.detail-title {
 	top: 25vh;
 	flex-wrap: wrap;
 }
+
 .bg-detail-work-sift {
 	background: url("../img/sift/SIFT-main.png") center no-repeat;
 	background-size: contain;
@@ -1549,7 +1589,7 @@ h3.detail-title {
 	-webkit-text-stroke: .5px #fff;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	width: 100%;
+	width: inherit;
 	height: 1px;
 	background: #c3c3c3;
 }
@@ -2663,7 +2703,18 @@ h3.section {
 	text-transform: uppercase;
 	color: transparent;
 	font-weight: 900;
-	font-size: 65px;
+	font-size: 50px;
+	margin-bottom: 20px;
+	-webkit-text-stroke: 1px #fff;
+	letter-spacing: 1px;
+}
+h4.section {
+	width: inherit;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: transparent;
+	font-weight: 900;
+	font-size: 60px;
 	margin-bottom: 20px;
 	-webkit-text-stroke: 1px #fff;
 	letter-spacing: 1px;
@@ -2693,6 +2744,10 @@ main.section {
 	z-index: 5;
 	background: #171819;
 }
+span.section{
+	font-weight: 600;
+	color: #f1f1f1;
+}
 .case-details {
 	width: 100%;
 	display: flex;
@@ -2710,6 +2765,7 @@ img.section {
 }
 div.section {
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .offers-list {
 	text-align: left;
@@ -2718,4 +2774,40 @@ div.section {
 	color: #c3c3c3;
 	font-size: 14px;
 	list-style-type: disc;
+}
+
+/* ==================================================
+
+15 - GRID 
+
+=====================================================*/
+ .my-container{
+padding-right: 50px;
+padding-left: 50px;
+
+}
+.top{
+	margin-top: 50px;
+}
+
+ .my-row{
+
+ }
+
+.my-col{
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+h3.sub-topic
+{
+padding-top:20px; 
+font-weight:500; 
+font-size:12px;
+}
+p.sub-topic
+{
+font-size: 10px; 
+line-height: 20px;
 }
