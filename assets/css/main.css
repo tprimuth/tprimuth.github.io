@@ -22,6 +22,7 @@ Author              : EsensiFiksi
 13. Error page
 14. Scroll back button 
 15. Filter Buttons
+16. Grid system
 
 ==================================================================*/
 
@@ -1147,7 +1148,7 @@ h1.title {
 }
 /* ==================================================
 
-8 - SERVICE
+8 - SERVICE/SKILLS
 
 =====================================================*/
 
@@ -1230,85 +1231,6 @@ span.tag-line{
 }
 /* ==================================================
 
-10 - BLOG
-
-=====================================================*/
-
-.blog-img:hover img {
-	transform: scale(0.98);
-	-webkit-transform: scale(0.98);
-	-moz-transform: scale(0.98);
-	-ms-transform: scale(0.98);
-	-o-transform: scale(0.98);
-}
-.blog-img img {
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-ms-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
-}
-.blog-text {
-	padding: 0 10px 0 0;
-}
-.blog-text h3 {
-	color: #fff;
-	font-size: 26px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-weight: 700;
-}
-.blog-text p {
-	color: #8f8f8f;
-}
-.bg-detail-blog {
-	background: url("../img/blog/detail.jpg") center no-repeat;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	text-align: center;
-	left: 0;
-	height: 100vh;
-	width: 100vw;
-	top: 0;
-}
-h3.detail-title {
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 40px;
-}
-.article {
-	color: #fff;
-}
-.article h3 {
-	font-size: 24px;
-	font-weight: 700;
-}
-.article p {
-	margin-top: 20px;
-	color: #8f8f8f;
-}
-.article .quote p {
-	font-weight: 500;
-	font-size: 20px;
-	text-align: center;
-	margin: 50px 0;
-	color: #c3c3c3;
-}
-.article .author p {
-	margin-bottom: 20px;
-}
-.line {
-	height: 1px;
-	margin-top: 40px;
-	width: 100px;
-	background: #fff;
-	position: absolute;
-	left: calc(50% - 50px);
-}
-/* ==================================================
-
 10 - WORK
 
 =====================================================*/
@@ -1356,14 +1278,6 @@ h3.detail-title {
 	width: 40vw;
 	top: 50vh;
 }
-
-
-
-/* ==================================================
-
-11 - WORK DETAIL
-
-=====================================================*/
 
 .bg-detail-work {
 	background: url("../img/detail-work/1/1.jpg") center no-repeat;
@@ -1487,6 +1401,20 @@ h3.detail-title {
 	left: 25%;
 	top: 25vh;
 }
+
+
+
+/* ==================================================
+
+11 - WORK DETAIL
+
+=====================================================*/
+.vl {
+	border-left: 2px solid #c3c3c3;
+	height: 50px;
+	margin: auto;
+  }
+
 .about-work h3 {
 	color: #fff;
 	font-size: 17px;
@@ -2800,14 +2728,29 @@ padding-left: 20px;
 
 }
 
-h3.sub-topic
-{
+h3.sub-topic{
+color: white;
 padding-top:20px; 
 font-weight:500; 
 font-size:12px;
 }
-p.sub-topic
-{
+
+h4.sub-topic{
+	color: #c3c3c3;
+	margin-top:30px; 
+	margin-right: 50px;
+	font-size: 20px;
+}
+
+p.sub-topic{
+color: #c3c3c3;
 font-size: 10px; 
 line-height: 20px;
 }
+
+ul.sub-topic{
+	color: #c3c3c3;
+	margin-top:30px; 
+	margin-right: 50px;
+	font-size: 16px;
+	}
