@@ -607,6 +607,7 @@ function topFunction() {
     }
     
     function onfunclicked() {
+        console.log ("hello")
         $('#project-grid').isotope({
                 filter:'.project-fun'
             })
