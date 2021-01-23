@@ -1325,6 +1325,23 @@ span.tag-line{
 	width: 40vw;
 	top: 50vh;
 }
+.bg-curo {
+	background: url("../img/curo/curo-header.png") center no-repeat;
+	opacity: 70%;
+	background-size: contain;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 40vw;
+	top: 50vh;
+}
 
 .bg-detail-work {
 	background: url("../img/detail-work/1/1.jpg") center no-repeat;
