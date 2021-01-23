@@ -957,6 +957,10 @@ h1.title {
 	position: relative;
 	padding: 0 20px;
 }
+img.folio-item{
+	object-fit: cover;
+
+}
 .folio-content .folio-item .img-folio {
 	z-index: 2;
 	position: relative;
