@@ -1275,7 +1275,42 @@ span.tag-line{
 
 =====================================================*/
 .bg-sift {
-	background: url("../img/works/Sift.png") center no-repeat;
+	background: url("../img/sift/SIFT-main.png") center no-repeat;
+	opacity: 70%;
+	background-size: contain;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 40vw;
+	top: 50vh;
+}
+.bg-den {
+	background: url("../img/den/den-header.png") center no-repeat;
+	opacity: 70%;
+	background-size: contain;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 40vw;
+	top: 50vh;
+}
+.bg-odum {
+	background: url("../img/odum/odum-header.png") center no-repeat;
+	opacity: 70%;
 	background-size: contain;
 	z-index: 3;
 	position: fixed;
