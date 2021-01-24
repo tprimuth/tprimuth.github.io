@@ -2856,6 +2856,12 @@ padding-right: 50px;
 padding-left: 50px;
 
 }
+
+.project-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(1000px, 1fr));
+}
+
 .top{
 	margin-top: 50px;
 }
