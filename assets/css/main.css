@@ -844,7 +844,7 @@ a {
 	top: 50vh;
 }
 .bg-5 {
-	background: url("../img/3d/hand rotation.gif") center no-repeat;
+	background: url("../img/3d/helix.gif") center no-repeat;
 	background-size: contain;
 	z-index: 3;
 	position: fixed;
@@ -1323,7 +1323,7 @@ span.tag-line{
 	top: 50vh;
 }
 .bg-odum {
-	background: url("../img/odum/odum-header.png") center no-repeat;
+	background: url("../img/odum/odum-bg.png") center no-repeat;
 	opacity: 70%;
 	background-size: contain;
 	z-index: 3;
