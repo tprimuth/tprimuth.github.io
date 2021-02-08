@@ -2921,3 +2921,12 @@ a.more{
 
 	
 }
+a.explore-link{
+font-weight: 700;
+font-size: 14pt;
+}
+
+a.explore-link:hover{
+opacity: 90%;
+
+}
