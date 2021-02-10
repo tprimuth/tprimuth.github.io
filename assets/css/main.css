@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------
-Project             : Spiral – Creative Digital Portfolio Template
-Version             : 1.0
-Author              : EsensiFiksi
 =====================================================================
 
 [Table of contents]
@@ -444,6 +441,90 @@ a:hover {
 .mb-100 {
 	margin-bottom: 100px !important;
 }
+/* margin-right */
+
+.mr-half {
+	margin-right: 90vh !important;
+}
+.mr-0 {
+	margin-right: 0px !important;
+}
+.mr-10 {
+	margin-right: 10px !important;
+}
+.mr-20 {
+	margin-right: 20px !important;
+}
+.mr-30 {
+	margin-right: 30px !important;
+}
+.mr-40 {
+	margin-right: 40px !important;
+}
+.mr-50 {
+	margin-right: 50px !important;
+}
+.mr-60 {
+	margin-right: 60px !important;
+}
+.mr-70 {
+	margin-right: 70px !important;
+}
+.mr-70 {
+	margin-right: 70px !important;
+}
+.mr-80 {
+	margin-right: 80px !important;
+}
+.mr-90 {
+	margin-right: 90px !important;
+}
+.mr-100 {
+	margin-right: 100px !important;
+}
+.mr-200 {
+	padding-right: 200px !important;
+}
+
+/* margin left */
+.ml-0 {
+	margin-left: 0px !important;
+}
+.ml-10 {
+	margin-left: 10px !important;
+}
+.ml-20 {
+	margin-left: 20px !important;
+}
+.ml-30 {
+	margin-left: 30px !important;
+}
+.ml-40 {
+	margin-left: 40px !important;
+}
+.ml-50 {
+	margin-left: 50px !important;
+}
+.ml-60 {
+	margin-left: 60px !important;
+}
+.ml-70 {
+	margin-left: 70px !important;
+}
+.ml-70 {
+	margin-left: 70px !important;
+}
+.ml-80 {
+	margin-left: 80px !important;
+}
+.ml-90 {
+	margin-left: 90px !important;
+}
+.ml-100 {
+	margin-left: 100px !important;
+}
+
+
 .bg-darks {
 	background: #000;
 }
@@ -1483,7 +1564,40 @@ span.tag-line{
 	left: 25%;
 	top: 25vh;
 }
-
+.bg-learn {
+	background: url("../img/web/learn-bg.png") center no-repeat;
+	opacity: 70%;
+	background-size: cover;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 40vw;
+	top: 50vh;
+}
+.bg-mca {
+	background: url("../img/web/mainmca-bg.png") center no-repeat;
+	opacity: 70%;
+	background-size: cover;
+	z-index: 3;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	height: 60vh;
+	width: 50vw;
+	top: 50vh;
+}
 
 
 /* ==================================================
@@ -1596,10 +1710,13 @@ span.tag-line{
 }
 .section-line {
 	display: block;
+	align-items: center;
 	-webkit-text-stroke: .5px #fff;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: inherit;
+	margin-top: 100px;
+	margin-bottom:0px ;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 	height: 1px;
 	background: #c3c3c3;
 }
