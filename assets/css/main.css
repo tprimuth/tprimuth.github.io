@@ -1477,8 +1477,8 @@ span.tag-line{
 	top: 15vh;
 }
 .bg-smoking-kettle {
-	background: url("../img/works/cookbook.png") center no-repeat;
-	background-size: cover;
+	background: url("../img/smoking\ kettle/smoking kettle - bg.png") center no-repeat;
+	background-size: contain;
 	z-index: -1;
 	position: fixed;
 	left: 0;
@@ -1488,7 +1488,7 @@ span.tag-line{
 	top: 25vh;
 }
 .bg-francisco-m {
-	background: url("../img/works/bottle.png") center no-repeat;
+	background: url("../img/fm/bg-fm.png") center no-repeat;
 	background-size: cover;
 	z-index: -1;
 	position: fixed;
