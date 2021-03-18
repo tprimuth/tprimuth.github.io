@@ -866,7 +866,7 @@ a {
 4 - HEADER
 
 =====================================================*/
-
+/* 
 .scrolls {
 	z-index: 10;
 	position: absolute;
@@ -880,7 +880,22 @@ a {
 	animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 	animation-timing-function: linear;
-}
+} */
+
+.scrolls {
+	z-index: 10;
+	position: absolute;
+	top: calc(90vh - 50px);
+	left: calc(50% - 50px);
+	-webkit-animation-name: spin;
+			animation-name: spin;
+	-webkit-animation-duration: 20s;
+			animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+  }
 .bg-right {
 	background: #000;
 	z-index: 3;
@@ -1263,7 +1278,7 @@ img.folio-item{
 =====================================================*/
 
 .service-item {
-	align-content: -webkit-transition: all 0.3s ease;
+	align-content: -webkit-transition; all 0.3s ease;
 	transition: all 0.3s ease;
 	padding: 30px 30px;
 	overflow: hidden;
@@ -2839,8 +2854,8 @@ h4.section {
 	width: inherit;
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
-	color: transparent;
-	font-weight: 900;
+	color: white;
+	font-weight: 700;
 	font-size: 60px;
 	margin-bottom: 20px;
 	-webkit-text-stroke: 1px #fff;
@@ -2961,6 +2976,18 @@ font-style: italic;
 font-weight: 400;
 font-size: 24px;
 }
+
+span.process{
+	color: white;
+	font-weight: 400;
+	text-decoration: underline;
+}
+span.process-large{
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+
 h2.focus{
 	color: #ffffff;
 	font-family: 'Poppins', sans-serif;
@@ -2980,6 +3007,9 @@ h6.focus{
 color: #ffffff;
 font-size: 20px;
 line-height: 28px;
+}
+.focus p{
+	color: white;
 }
 /* ==================================================
 
@@ -3001,9 +3031,6 @@ padding-left: 50px;
 	margin-top: 50px;
 }
 
- .my-row{
-
- }
 
 .my-col{
 padding-right: 20px;
@@ -3038,16 +3065,153 @@ ul.sub-topic{
 	font-size: 16px;
 	}
 
-a.more{
-
-	
-}
 a.explore-link{
-font-weight: 700;
-font-size: 14pt;
+font-weight: 500;
+font-size: 10pt;
+color: #c3c3c3;
+text-decoration: underline;
 }
 
 a.explore-link:hover{
 opacity: 90%;
 
 }
+
+
+/* ==================================================
+
+NEW CONTENT LAYOUT
+
+=====================================================*/
+
+.detail-head {
+	position: relative;
+	height: 75vh;
+	overflow: hidden;
+	z-index: -1;
+}
+.-head .container {
+	position: relative;
+}
+
+h2.sub-content {
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+/* ==================================================
+
+10 - BLOG
+
+=====================================================*/
+.blog-img:hover img {
+	transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	-o-transform: scale(0.98);
+  }
+  
+  .blog-img img {
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+  }
+  
+  .blog-text {
+	padding: 0 10px 0 0;
+  }
+  
+  .blog-text h3 {
+	color: #000;
+	font-size: 26px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 700;
+  }
+  
+  .blog-text p {
+	color: #8f8f8f;
+  }
+  
+  .bg-detail-blog {
+	background: url("../img/sift/page\ break\ 4.png") center no-repeat;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+  }
+  
+  h3.detail-title {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 40px;
+  }
+  h1.detail-title {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 100px;
+  }
+  p.detail-title{
+	color:#000;
+	font-weight: 500;
+	font-size: 30px;
+  }
+  
+  .article {
+	color: #fff;
+  }
+  
+  .article h3 {
+	font-size: 24px;
+	font-weight: 700;
+  }
+  
+  .article p {
+	margin-top: 20px;
+	color: #8f8f8f;
+  }
+
+  .article .focus p{
+	  color: white;
+  }
+  
+  .article .quote p {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px 0;
+	color: #e7e7e7;
+	font-style: italic;
+  }
+  .article .quote span {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px 0;
+	color: #fff;
+	font-style: italic;
+  }
+  
+  .article .author p {
+	margin-bottom: 20px;
+  }
+  
+  .line {
+	height: 1px;
+	margin-top: 40px;
+	width: 100px;
+	background: #fff;
+	position: absolute;
+	left: calc(50% - 50px);
+  }
