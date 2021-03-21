@@ -400,6 +400,13 @@ a:hover {
 .mt-100 {
 	margin-top: 100px !important;
 }
+.mt-150 {
+	margin-top: 150px !important;
+}
+.mt-175 {
+	margin-top: 175px !important;
+}
+
 .mt-200 {
 	padding-top: 200px !important;
 }
@@ -1727,14 +1734,25 @@ span.tag-line{
 	display: block;
 	align-items: center;
 	-webkit-text-stroke: .5px #fff;
-	margin-top: 100px;
-	margin-bottom:0px ;
+	margin-top: 200px;
 	margin-left: 15%;
 	margin-right: 15%;
 	width: 70%;
 	height: 1px;
 	background: #c3c3c3;
 }
+.small-line {
+	display: block;
+	align-items: center;
+	-webkit-text-stroke: .5px #fff;
+	margin-top: 200px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 20%;
+	height: 1px;
+	background: #c3c3c3;
+}
+
 .metric h1 {
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
@@ -3209,8 +3227,9 @@ h2.sub-content {
   
   .line {
 	height: 1px;
-	margin-top: 40px;
 	width: 100px;
+	margin-top: 100px;
+
 	background: #fff;
 	position: absolute;
 	left: calc(50% - 50px);
