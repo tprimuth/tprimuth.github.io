@@ -411,16 +411,16 @@
     var t1 = new TimelineMax({
         paused: true
     });
-    t1.to(".one", 0.8, {
+    t1.to(".one", 1, {
         y: 9,
         autoAlpha: 0,
         ease: Expo.easeInOut
     });
-    t1.to(".two", 0.8, {
+    t1.to(".two", 1, {
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".tre", 0.8, {
+    t1.to(".tre", 1, {
         y: -9,
         autoAlpha: 0,
         ease: Expo.easeInOut,
@@ -443,7 +443,7 @@
         delay: -1
     })
 
-    t1.staggerFrom(".menu ul li", 3, {
+    t1.staggerFrom(".menu ul li", .8, {
         y: 50,
         opacity: 0,
         ease: Power4.easeInOut,
@@ -560,9 +560,9 @@
 
 })(jQuery);
 
-    //--------------------------------------------------
-    // Scroll back button
-    //--------------------------------------------------
+//--------------------------------------------------
+// Scroll back button
+//--------------------------------------------------
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -583,44 +583,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-
-    //--------------------------------------------------
-    // Project Filters
-    //--------------------------------------------------
-    function onuxclicked() {
-        $('#project-grid').isotope({
-                filter:'.project-ux'
-            })
-    }
-
-    function onwebclicked() {
-        $('#project-grid').isotope({
-                filter:'.project-web'
-            })
-    }
-    
-    function onvisualclicked() {
-        $('#project-grid').isotope({
-                filter:'.project-visual'
-            })
-    }
-    
-    function onfunclicked() {
-        console.log ("hello")
-        $('#project-grid').isotope({
-                filter:'.project-fun'
-            })
-    }
-    
-    function onallclicked() {
-        $('#project-grid').isotope({
-                filter:'.project-visual, .project-ux, .project-web, .project-fun'
-            })
-    }
-
-document.getElementById("all").addEventListener("click",onallclicked)
-document.getElementById("ux").addEventListener("click",onuxclicked)
-document.getElementById("web").addEventListener("click",onwebclicked)
-document.getElementById("visual").addEventListener("click",onvisualclicked)
-document.getElementById("fun").addEventListener("click",onfunclicked)
