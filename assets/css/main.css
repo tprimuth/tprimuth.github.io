@@ -1134,9 +1134,20 @@ h1.title {
 .about-text h5 {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
+  font-weight: 600;
   color: rgb(184, 184, 184);
   font-weight: 600;
 }
+
+.about-text p{
+  color: rgb(184, 184, 184);
+  font-weight: 500;
+}
+.about-text span{
+  font-weight: bold;
+  color: #f7f7f7;
+}
+
 
 .abt-text {
   margin-left: -200px;
@@ -1169,7 +1180,6 @@ letter-spacing: .5px;
 .abt-text span{
 font-weight: bold;
 color: #f7f7f7;
-
 }
 
 .abt-text a::after {
@@ -1278,6 +1288,7 @@ color: #f7f7f7;
   padding: 30px 30px;
   overflow: hidden;
   background: #050505;
+  list-style-type: circle;
 }
 
 .front {
@@ -1297,7 +1308,7 @@ color: #f7f7f7;
 }
 
 .service-text h3 {
-  color: #fff;
+  color: #f7f7f7;
   text-align: center;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
@@ -1305,6 +1316,7 @@ color: #f7f7f7;
 }
 
 .service-text p {
+  color: #c3c3c3;
   margin-top: 20px;
   text-align: center;
 }
@@ -1313,25 +1325,30 @@ color: #f7f7f7;
   padding: 0;
   margin-top: 20px;
   text-align: center;
+  list-style-type: circle;
 }
 
 .service-line {
-
   height: 3px;
   margin-top: 20px;
   width: 100px;
-  background: #fff;
+  background: #c3c3c3;
   position: relative;
   left: calc(50% - 50px);
 }
 
 .service-list li {
   display: block;
-  color: #fff;
+  color: #c3c3c3;
   margin: 10px 0;
   text-align: center;
+  list-style-type: circle;
 }
 
+.service-list ul {
+  display: block;
+  list-style-type: circle;
+}
 /* ==================================================
 
 9 - PARTNER
